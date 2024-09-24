@@ -23,7 +23,7 @@ class StPolesView extends StatelessWidget {
             child: Column(children: [
               CustomButtonSend(
                 onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>const HisLife()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> HisLife()));
                 },
                 title:'حياته',
               ),
@@ -37,7 +37,7 @@ class StPolesView extends StatelessWidget {
                const SizedBox(height: 30,),
               CustomButtonSend(
                 onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>const MessageFelmon()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>const  MessageFelmon()));
                 },
                 title: 'دراسة في رسالة فليمون',
               )
