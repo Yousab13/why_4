@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "941843657",
+    "project_id": "summer-con",
+    "storage_bucket": "summer-con.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941843657:android:6ed2018ca43062545a1918",
+        "android_client_info": {
+          "package_name": "com.example.final_why_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-4T4ZXYkQgL9_oonzibUv20fU_obzQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941843657:android:4d5889f3b526071c5a1918",
+        "android_client_info": {
+          "package_name": "com.example.why_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK-4T4ZXYkQgL9_oonzibUv20fU_obzQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
