@@ -12,14 +12,17 @@ class CustomNavBar extends StatelessWidget {
   const CustomNavBar({super.key});
   @override
   Widget build(BuildContext context) {
-    return PersistentTabView(
-      context,
-      controller: _controller,
-      screens: _buildScreens(),
-      items: _navBarsItems(),
-      navBarHeight: kBottomNavigationBarHeight,
-      navBarStyle: NavBarStyle.style9, //
-      backgroundColor: kpr2color,
+    return Directionality(
+      textDirection: TextDirection.rtl,
+      child: PersistentTabView(
+        context,
+        controller: _controller,
+        screens: _buildScreens(),
+        items: _navBarsItems(),
+        navBarHeight: kBottomNavigationBarHeight,
+        navBarStyle: NavBarStyle.style9, //
+        backgroundColor: kpr2color,
+      ),
     );
   }
 }
